@@ -1,0 +1,22 @@
+{
+  "name": "jrandallsexton.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrandallsexton/jrandallsexton.com.git"
+  },
+  "author": "J. Randall Sexton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrandallsexton/jrandallsexton.com/issues"
+  },
+  "homepage": "https://github.com/jrandallsexton/jrandallsexton.com",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
