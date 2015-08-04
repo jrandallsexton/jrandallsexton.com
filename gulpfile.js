@@ -27,7 +27,7 @@ gulp.task('scripts', function() {
 gulp.task('deploy', function() {
 	gulp.src('css/*.css').pipe(gulp.dest('release/css'));
 	gulp.src('css/colors/*.css').pipe(gulp.dest('release/css/colors'));
-	gulp.src('fonts/*.*').pipe(gulp.dest('/fonts'));
+	gulp.src('fonts/*.*').pipe(gulp.dest('release/fonts'));
 	gulp.src('img/*.*').pipe(gulp.dest('release/img'));
 	gulp.src('img/logos/*.*').pipe(gulp.dest('release/img/logos'));
 	gulp.src('img/overlays/*.*').pipe(gulp.dest('release/img/overlays'));
